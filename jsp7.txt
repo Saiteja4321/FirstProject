@@ -1,0 +1,159 @@
+Q) What is the difference between GIT and GITHUB ?
+
+GIT						GITHUB
+--------					--------
+It is a distributed version control system	It is a hosting server of GIT.
+which is used to track the changes in each 
+file of a project.
+
+It is a software.				It is a service.
+
+It contains local repository.			It cotains remote repository.
+
+It is installed locally on a system.		It is hosted on web.
+
+It is command line.				It is GUI.
+
+
+Git stages
+===========
+We have three stages in GIT.
+
+1) Working Directory 
+
+2) Staging Area 
+
+3) Repository 
+
+Diagram: jsp7.1
+
+Steps to push the files in GITHUB
+==================================
+step1:
+------
+	Create a account in GITHUB.
+	ex:
+		https://github.com
+
+step2:
+------
+	Connect to GITHUB account.
+	ex:
+		username or email : NiyazulHasan 
+		password 	  : ********
+
+step3:
+------
+	Create a remote repository inside GITHUB.
+	ex:
+		https://github.com/NiyazulHasan/IH-JAVA-043
+
+step4:
+-----
+	Download and install GIT in your laptop.
+	ex:
+		https://git-scm.com/downloads
+
+step5:
+------
+	Create a "myFolder" on desktop.
+
+
+step6:
+-----
+	Copy the files and paste in myFolder.
+
+
+step7:
+------
+	Open the GIT bash from myFolder.
+
+
+step8:
+------
+	Initialize the GIT empty repository.
+	ex:
+		git  init 
+
+step9:
+-----
+	Switch the branch from master to main.
+	ex:
+		git branch --move master main 
+
+step10:
+-------
+	Check the git status.
+	ex:
+		git status 
+
+step11:
+------
+	Add the files to staging area.
+	ex:
+		git add . 
+
+step12:
+------
+	Commit the changes.	
+	ex:
+		git commit -m "my pdf files"
+
+	Note:
+	----
+	Who are you ? 
+
+	git config --global user.name "My Name"
+	git config --global user.email "myemail@example.com"	
+
+step13:
+-------
+	Add remote origin.
+	ex:
+		git remote add origin https://github.com/NiyazulHasan/IH-JAVA-043
+
+step14
+------
+	Push the code to GITHUB.
+	ex:
+		git push -f origin main 
+step15:
+-------
+	Refresh the page of GITHUB.
+	ex:
+		https://github.com/NiyazulHasan/IH-JAVA-043
+
+
+Steps to pull the files from GITHUB
+====================================
+step1:
+------
+	Create a "demo" folder on desktop.
+
+step2:
+-----
+	Open the gitbash and initialize the git empty repository.
+	ex:
+		git init 
+
+step3:
+----
+	Make a pull request.
+	ex:
+		git pull https://github.com/NiyazulHasan/IH-JAVA-043
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
